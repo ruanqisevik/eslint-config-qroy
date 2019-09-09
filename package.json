@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-qroy",
   "version": "0.0.1",
-  "description": "eslint configs for javascript code style, customized with Q.Roy's personal code style ",
+  "description": "eslint configs for javascript code style, customized with Q.Roy's personal code style.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
