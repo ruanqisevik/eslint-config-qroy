@@ -35,6 +35,10 @@ npm install --save-dev eslint eslint-config-qroy
 }
 ```
 
+### Using with prettier
+
+Prettier is highly recommended using with ESLint. You can just copy [.prettierrc.js](./.prettierrc.js) file in this project as prettier configuration file;
+
 ## Run tests
 
 // TODO  
