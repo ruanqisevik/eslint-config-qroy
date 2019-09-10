@@ -1,5 +1,16 @@
-# Welcome to eslint-config-qroy 👋
-![Version](https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000)
+# eslint-config-qroy
+![version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+![node-version][node-version-image]
+[![npm][npm-image]][npm-url]
+
+[node-version-image]: https://img.shields.io/node/v/eslint-config-qroy.svg
+[npm-image]: https://img.shields.io/npm/v/eslint-config-qroy.svg
+[npm-url]: https://npmjs.org/package/eslint-config-qroy
+<!-- [Npm Package Version Image]: https://img.shields.io/npm/v/eslint-config-adoyle-style.svg
+[Npm Package Version LINK]: https://www.npmjs.com/package/eslint-config-adoyle-style
+[License Image]: https://img.shields.io/npm/l/eslint-config-adoyle-style.svg
+[License LINK]: https://github.com/adoyle-h/eslint-config-adoyle-style/blob/master/LICENSE
+[NodeJS Package Dependencies Link]: https://david-dm.org/adoyle-h/eslint-config-adoyle-style.svg -->
 
 > eslint configs for javascript code style, customized with Q.Roy's personal code style.
 
