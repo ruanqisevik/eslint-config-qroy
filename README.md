@@ -14,8 +14,6 @@
 
 > eslint configs for javascript code style, customized with Q.Roy's personal code style.
 
-### 🏠 [Homepage](https://github.com/ruanqisevik/eslint-config-qroy)
-
 ## Install
 
 ```sh
@@ -61,16 +59,11 @@ Too lazy for doing testing;
 
 * Github: [@ruanqisevik](https://github.com/ruanqisevik)
 
-## 🤝 Contributing
+## Issues
 
-Contributions, issues and feature requests are welcome!
+issues and feature requests are welcome!
 
 Feel free to check [issues page](https://github.com/ruanqisevik/eslint-config-qroy/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
