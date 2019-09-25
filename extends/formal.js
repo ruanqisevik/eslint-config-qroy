@@ -4,6 +4,7 @@ module.exports = {
 		'linebreak-style': ['error', 'unix'],
 		'quotes': ['error', 'single'],
 		'semi': ['error', 'never'],
-		'array-element-newline': ['error', { 'multiline': true }],
-	},
+		'array-element-newline': ['error', { multiline: true }],
+		'comma-dangle': ['error', 'never']
+	}
 }
