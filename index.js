@@ -1,3 +1,4 @@
-const defaultConfig = require("./node/index");
+'use strict';
 
+const defaultConfig = require('./node/index');
 module.exports = defaultConfig;

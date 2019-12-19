@@ -21,10 +21,14 @@ npm install --save-dev eslint eslint-config-qroy
 ```
 
 ## Usage
+---
+Edit your `.eslintrc` file, and append the code for the different environments listed below.
+
+### Default (For Node.js)
 
 ```json
 {
-  "extends": "qroy 
+  "extends": "qroy" 
 }
 ```
 

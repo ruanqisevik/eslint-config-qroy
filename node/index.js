@@ -1,14 +1,33 @@
+'use strict';
+
 module.exports = {
-	env: {
-		node: true
-	},
-	extends: ['eslint:recommended'].concat(
-		['formal', 'es6'].map(filename => require.resolve('../extends/' + filename))
-	),
-	root: true,
-	parserOptions: {
-		ecmaVersion: '2018',
-		sourceType: 'script'
-	},
-	globals: {}
-}
+    extends: [
+        'best_practices',
+        'commonjs',
+        'possible_errors',
+        'strict',
+        'stylistic_issues',
+        'variables',
+        'es6',
+    ].map((path) => {
+        return require.resolve(`../extends/${path}`);
+    }),
+    env: {
+        node: true,
+    },
+    parserOptions: {
+        ecmaVersion: '2018',
+        sourceType: 'script',
+    },
+    globals: {},
+    rules: {
+        'no-shadow': [
+            1,
+            {
+                builtinGlobals: true,
+                hoist: 'all',
+                allow: ['Promise', 'callback', '_'],
+            },
+        ],
+    },
+};
