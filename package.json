@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qroy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "eslint configs for javascript code style, customized with Q.Roy's personal code style.",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,11 @@
     "eslint-config"
   ],
   "author": "Q.Roy",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0"
+  }
 }
